@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Styles</h1>
+<%= turbo_stream_from "styles" %>
+<%= render "styles/form", style: @style %>
+  <%= turbo_frame_tag "styles" do %>
+    <%= render @styles %>
+  <%end%>
+<%= link_to 'New Style', new_style_path %>

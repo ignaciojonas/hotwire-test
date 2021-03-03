@@ -1,0 +1,6 @@
+<h1>Editing Style</h1>
+
+<%= turbo_frame_tag dom_id(@style) do %>
+    <%= render 'form', style: @style %>
+    <%= link_to 'Cancel', styles_url %>
+<% end %>

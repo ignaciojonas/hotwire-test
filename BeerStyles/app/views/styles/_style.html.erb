@@ -1,0 +1,14 @@
+<%= turbo_frame_tag dom_id(style) do %>
+<div class="card m-4">
+    <div class="card-title">
+      <%= style.name %>
+    </div>
+    <div class="card-body">
+      <%= style.description %>
+    </div>
+    <div class="card-footer bg-transparent border-success">
+        <%= link_to 'Edit', edit_style_path(style) %>
+        <%= link_to 'Destroy', style, method: :delete, data: { confirm: 'Are you sure?' } %>
+    </div>
+</div>
+<% end %>

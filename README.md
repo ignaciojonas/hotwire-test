@@ -11,7 +11,7 @@ rails db:create db:migrate
 rails s
 ```
 
-If you have any question you can leave a comment in my blog or open an issue in this repo.
+If you have any question you can leave a comment in my [blog](https://ignaciojonas.com/) or open an [issue](https://github.com/ignaciojonas/hotwire-test/issues) in this repo.
 
 ## Spanish 
 Aplicación de prueba de Hotwire
@@ -26,4 +26,4 @@ rails db:create db:migrate
 rails s
 ```
 
-Si tenes alguna duda podes dejar un comentario en mi blog o abrir un issue en este repo.
+Si tenes alguna duda podes dejar un comentario en mi [blog](https://ignaciojonas.com/) o abrir un [issue](https://github.com/ignaciojonas/hotwire-test/issues) en este repo.
